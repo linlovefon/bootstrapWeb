@@ -1,0 +1,161 @@
+body {
+    background: whitesmoke;
+    font-family: "微軟正黑體";
+}
+
+header {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: rgba(138, 25, 36, 0.8);
+}
+
+.row {
+    margin: 0;
+}
+.phone-brand {
+    display: none;
+}
+.navbar-nav {
+    margin: auto;
+}
+
+.nav-item {
+    line-height: 114px;
+}
+
+.navbar-dark .navbar-brand {
+    color: #fff;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: #fff;
+}
+
+.banner {
+    background-image: url('images/banner.jpg');
+    height: 100vh;
+    background-position: center center;
+    background-size: cover;
+    padding: 0;
+    /* vh viewport height */
+    /* vw viewport width */
+}
+
+.overlay {
+    background-color: rgba(138, 25, 36, 0.3);
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    left: 0;
+    bottom: 0;
+}
+
+/* 段落設定 .banner-title */
+
+/* p.banner-title */
+
+/* 任何元素設定 .banner-title */
+
+/* .banner-title */
+
+.overlay .banner-description {
+    bottom: 30%;
+    font-size: 1.5em;
+    color: white;
+    text-shadow: black 0.1em 0.1em 0.2em;
+}
+
+.overlay .banner-title span {
+    color: red;
+}
+
+.picture {
+    overflow: hidden;
+    height: 150px;
+}
+
+.product-card {
+    background-color: #fff;
+    padding: 20px;
+}
+
+.product-title {
+    color: orangered;
+}
+
+.product-description {
+    height: 60px;
+}
+
+.product-price {
+    color: orangered;
+    font-size: 2em;
+    font-weight: 900;
+    font-family: 'Roboto', sans-serif;
+}
+
+.product-origin-price {
+    font-size: .5em;
+    color: gray;
+}
+
+.btn-group {
+    margin: auto;
+}
+
+.feature {
+    background-image: url('https://picsum.photos/id/100/1440/638');
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    /* height: 500px; */
+    color: #fff;
+    position: relative;
+    height: auto;
+}
+
+.feature .overlay {
+    position: relative;
+}
+
+.product-origin-price+span a {
+    color: red;
+    /* font-size: 2em; */
+}
+
+.btn {
+    background-color: rgba(138, 25, 36, 0.8);
+    color: white;
+}
+footer{
+    background-color: rgba(138, 25, 36);
+    color: whitesmoke
+}
+
+@media screen and (max-width: 960px) {
+    .phone-brand {
+        width: 60%;
+        display: block;
+    }
+    .navbar-nav .navbar-brand {
+        display: none;
+    }
+    .nav-item {
+        line-height: 60px;
+        margin: auto!important;
+    }
+
+    .product-card {
+        width: 85%;
+        margin: auto;
+    }
+
+    .banner-description {
+        font-size: 20px;
+        margin-top: 100px;
+    }
+
+    .picture {
+        height: 230px;
+    }
+}
