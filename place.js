@@ -2651,3 +2651,10 @@ section3.addEventListener('click', section, false);
 section4.addEventListener('click', section, false);
 //按鈕事件end
 
+// page top
+$('.top a').click(function pageTop(e) {
+  e.preventDefault()
+  $('html,body').animate({
+    scrollTop: 0
+  }, 1000)
+}) // page top end

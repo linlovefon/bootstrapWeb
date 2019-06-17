@@ -12,9 +12,11 @@ header {
 .row {
     margin: 0;
 }
+
 .phone-brand {
     display: none;
 }
+
 .navbar-nav {
     margin: auto;
 }
@@ -127,9 +129,42 @@ header {
     background-color: rgba(138, 25, 36, 0.8);
     color: white;
 }
-footer{
+
+footer {
     background-color: rgba(138, 25, 36);
-    color: whitesmoke
+    color: whitesmoke ;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+footer p {
+    font-size: 16px;
+    text-align: center;
+    padding: 0;
+    margin: 0 2%;
+}
+footer a{
+    color:whitesmoke;
+}
+footer a:hover{
+    color: blanchedalmond;
+}
+.top a {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: solid 1px;
+    border-width: 2px;
+    background-color: rgba(138, 25, 36);
+    color: whitesmoke;
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    text-align: center;
+    line-height: 40px;
+    text-decoration: none;
+    font-size: 20px;
+    display: block;
 }
 
 @media screen and (max-width: 960px) {
@@ -137,12 +172,14 @@ footer{
         width: 60%;
         display: block;
     }
+
     .navbar-nav .navbar-brand {
         display: none;
     }
+
     .nav-item {
         line-height: 60px;
-        margin: auto!important;
+        margin: auto !important;
     }
 
     .product-card {
